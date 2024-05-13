@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Cold Blood 1965</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">BookNest</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtcs.html">Books</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <i class="fas fa-shopping-cart"></i>
+        </ul>
+    </nav>
+
+    <div class="flex-box">
+        <div class="left">
+            <div class="big-img">
+                <img src="4.jpg">
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="pname"> In Cold Blood</div>
+            <div class="description">
+                the small town of Holcomb, Kansas, was turned on end by the savage murder of four members of the Clutter family. The police had no suspects and almost no evidence
+            </div>
+            <div class="ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">550 DZD</div>
+            <div class="quantity">
+                <p>quantity:</p>
+                <input type="number" min="1" max="5" value="1">
+            </div>
+            <div class="btn-box">
+                <button onclick="window.location.href='pruschare.html'">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        let bigImg = document.querySelector('.big-img img');
+        function showImg(pic){
+            bigImg.src = pic;
+        }
+    </script>
+</body>
+</html>
